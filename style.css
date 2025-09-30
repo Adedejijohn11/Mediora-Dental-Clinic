@@ -1,0 +1,610 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-bg {
+  height: 100%;
+  width: 97%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #acd7e8;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+@media (min-width: 720px) {
+  .home-bg {
+    height: 90vh;
+  }
+}
+
+nav {
+  height: 50px;
+  width: 80vw;
+  margin-top: 10px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d9eef4;
+  border-radius: 30px;
+}
+
+nav ul {
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+}
+
+@media (min-width: 960px) {
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+nav ul li {
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+nav .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  margin-right: 0 10px;
+}
+
+nav .right-side li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+nav .right-side .btn {
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: #2498d2;
+  color: white;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 150vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+}
+
+@media (min-width: 720px) {
+  header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+header .hero-left {
+  width: 100%;
+  padding-top: 20px;
+}
+
+@media (min-width: 720px) {
+  header .hero-left {
+    width: 50%;
+    padding-left: 20px;
+  }
+}
+
+header .hero-left .container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 720px) {
+  header .hero-left .container {
+    display: block;
+    justify-items: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+}
+
+header .hero-left .container span {
+  background-color: #84b8c8;
+}
+
+header .hero-left .container h1 {
+  margin-top: 15px;
+  font-size: 35px;
+  width: 50%;
+  text-align: center;
+}
+
+@media (min-width: 720px) {
+  header .hero-left .container h1 {
+    width: 450px;
+    font-size: 60px;
+    margin-top: 10px;
+    text-align: start;
+  }
+}
+
+header .hero-left .container .description {
+  margin-top: 15px;
+  text-align: center;
+  width: 55%;
+  font-size: 15px;
+  color: #655d5d;
+}
+
+@media (min-width: 720px) {
+  header .hero-left .container .description {
+    width: 450px;
+    margin-top: 10px;
+    text-align: start;
+    font-size: 20px;
+  }
+}
+
+header .hero-left .container .btn-1 {
+  border-radius: 22px;
+  border: none;
+  padding: 13px;
+  margin-top: 20px;
+  font-size: 15px;
+  background-color: #2498d2;
+  color: white;
+  cursor: pointer;
+}
+
+header .hero-left .container .box {
+  margin-top: 80px;
+}
+
+header .hero-left .container .box .title {
+  font-size: 20px;
+  color: #655d5d;
+}
+
+header .hero-left .container .box .img-container {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-top: 8px;
+}
+
+header .hero-left .container .box .img-container .img-1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+header .hero-left .container .box .img-container .img-2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: white;
+  position: absolute;
+  left: 28px;
+  background-color: aqua;
+}
+
+header .hero-left .container .box .img-container .img-3 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  left: 55px;
+}
+
+header .hero-left .container .box .img-container .img-4 {
+  z-index: 1;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: white;
+  position: absolute;
+  left: 85px;
+  background-color: brown;
+}
+
+header .hero-left .container .box .img-container .img-5 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  left: 110px;
+  background-color: #363434;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .hero-right {
+  width: 100%;
+  height: 420px;
+  margin-top: 20px;
+}
+
+@media (min-width: 720px) {
+  header .hero-right {
+    width: 50%;
+    height: 515px;
+  }
+}
+
+header .hero-right .img {
+  background-image: url("/assets/images/doctors-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.Section-1 {
+  background-color: brown;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+}
+
+@media (min-width: 720px) {
+  .Section-1 {
+    height: 90vh;
+  }
+}
+
+.Section-1 .top-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 720px) {
+  .Section-1 .top-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.Section-1 .top-container .title {
+  width: 50%;
+}
+
+.Section-1 .top-container .description {
+  width: 50%;
+}
+
+.Section-1 .Cards-container {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+@media (min-width: 720px) {
+  .Section-1 .Cards-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.Section-1 .Cards-container .card-1 {
+  padding: 20px;
+  height: 280px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #2498d2;
+  overflow: hidden;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (min-width: 720px) {
+  .Section-1 .Cards-container .card-1 {
+    height: 380px;
+    width: 500px;
+  }
+}
+
+.Section-1 .Cards-container .card-1 .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Section-1 .Cards-container .card-1 .top .title {
+  font-size: 19px;
+}
+
+@media (min-width: 720px) {
+  .Section-1 .Cards-container .card-1 .top .title {
+    font-size: 25px;
+  }
+}
+
+.Section-1 .Cards-container .card-1 .top .tooth-icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.Section-1 .Cards-container .card-1 .top .tooth-icon .fa-tooth {
+  font-size: 20px;
+}
+
+.Section-1 .Cards-container .card-1 .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Section-1 .Cards-container .card-1 .center .percentage {
+  font-size: 45px;
+}
+
+@media (min-width: 720px) {
+  .Section-1 .Cards-container .card-1 .center .percentage {
+    font-size: 60px;
+  }
+}
+
+.Section-1 .Cards-container .card-1 .center span {
+  font-size: 15px;
+}
+
+@media (min-width: 720px) {
+  .Section-1 .Cards-container .card-1 .center span {
+    font-size: 20px;
+  }
+}
+
+.Section-1 .Cards-container .card-1 .bottom {
+  width: 190px;
+  height: 30px;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20px;
+  background-color: #046393;
+}
+
+@media (min-width: 720px) {
+  .Section-1 .Cards-container .card-1 .bottom {
+    width: 195px;
+    font-size: 16px;
+  }
+}
+
+.Section-1 .Cards-container .card-2 {
+  background-image: url("/assets/images/dentist-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #2498d2;
+  overflow: hidden;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 720px) {
+  .Section-1 .Cards-container .card-2 {
+    height: 380px;
+    width: 500px;
+  }
+}
+
+.Section-1 .Cards-container .card-2 .overlay-bg {
+  background-color: rgba(0, 0, 0, 0.448);
+  height: 100%;
+  width: 100%;
+}
+
+.Section-1 .Cards-container .card-2 .container {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Section-1 .Cards-container .card-2 .container .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+.Section-1 .Cards-container .card-2 .container .top .boxs {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.Section-1 .Cards-container .card-3 {
+  background-image: url("/assets/images/dentist-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #2498d2;
+  overflow: hidden;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 720px) {
+  .Section-1 .Cards-container .card-3 {
+    height: 380px;
+    width: 500px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

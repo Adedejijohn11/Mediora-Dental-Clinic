@@ -1,0 +1,149 @@
+.Section-1 {
+  background-color: brown;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+
+  @include md {
+    height: 90vh;
+  }
+
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include md {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .title {
+      width: 50%;
+    }
+
+    .description {
+      width: 50%;
+    }
+  }
+
+  .Cards-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    @include md {
+      flex-direction: row;
+    }
+
+    // ----------------------card-1
+    .card-1 {
+      padding: 20px;
+      @include card-styles;
+      justify-content: space-between;
+
+      .top {
+        display: flex;
+        justify-content: space-between;
+
+        .title {
+          font-size: 19px;
+
+          @include md {
+            font-size: 25px;
+          }
+        }
+
+        .tooth-icon {
+          height: 30px;
+          width: 30px;
+          border-radius: 30px;
+          display: flex;
+          color: white;
+          justify-content: center;
+          align-items: center;
+          @include bg-opacity-color;
+
+          .fa-tooth {
+            font-size: 20px;
+          }
+        }
+      }
+
+      .center {
+        display: flex;
+        flex-direction: column;
+
+        .percentage {
+          font-size: 45px;
+
+          @include md {
+            font-size: 60px;
+          }
+        }
+
+        span {
+          font-size: 15px;
+
+          @include md {
+            font-size: 20px;
+          }
+        }
+      }
+      .bottom {
+        width: 190px;
+        height: 30px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        background-color: rgb(4, 99, 147);
+
+        @include md {
+          width: 195px;
+          font-size: 16px;
+        }
+      }
+    }
+
+    // ----------------------card-2
+    .card-2 {
+      background-image: url("/assets/images/dentist-2.jpg");
+      @include bg-image-center;
+      @include card-styles;
+
+      .overlay-bg {
+        background-color: rgba(0, 0, 0, 0.448);
+        height: 100%;
+        width: 100%;
+      }
+
+      .container {
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        @include space-between;
+
+        .top {
+          @include space-between;
+          flex-direction: row;
+
+          .boxs {
+            @include bg-opacity-color;
+          }
+        }
+      }
+    }
+
+    // ----------------------card-3
+    .card-3 {
+      background-image: url("/assets/images/dentist-3.jpg");
+      @include bg-image-center;
+      @include card-styles;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@mixin usable-bg-color {
+  background-color: rgb(36, 152, 210);
+}
+
+@mixin button-styles {
+  @include usable-bg-color;
+  color: white;
+  cursor: pointer;
+}
+
+@mixin bg-image-center {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@mixin client-circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+@mixin card-styles {
+  height: 280px;
+  width: 400px;
+
+  border-radius: 20px;
+  @include usable-bg-color;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  @include md {
+    height: 380px;
+    width: 500px;
+  }
+}
+
+@mixin bg-opacity-color {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+@mixin space-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
