@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,7 @@
 }
 
 * body {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,6 +18,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: yellow;
 }
 
 .home-bg {
@@ -323,6 +326,7 @@ header .hero-right .img {
   height: 100%;
   width: 100%;
   padding: 30px;
+  background-color: #bf00ff;
 }
 
 @media (min-width: 720px) {
@@ -765,7 +769,7 @@ header .hero-right .img {
 
 .Section-2 {
   width: 100%;
-  height: 700px;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -776,6 +780,7 @@ header .hero-right .img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: aqua;
 }
 
 @media (min-width: 720px) {
@@ -790,6 +795,8 @@ header .hero-right .img {
 
 .Section-2 .left-container {
   width: 100%;
+  height: 400px;
+  background-color: blue;
 }
 
 @media (min-width: 720px) {
@@ -802,18 +809,67 @@ header .hero-right .img {
   }
 }
 
-.Section-2 .left-container iframe {
+.Section-2 .left-container ß iframe {
   width: 100%;
-  height: "300";
+  height: 100%;
+}
+
+.Section-2 .right-container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: red;
 }
 
 @media (min-width: 720px) {
-  .Section-2 .left-container iframe {
+  .Section-2 .right-container {
+    width: 50%;
+    height: 400px;
+  }
+}
+
+.Section-2 .right-container .form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.Section-2 .right-container .form-container .container-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (min-width: 720px) {
+  .Section-2 .right-container .form-container .container-1 {
     width: 50%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
+}
+
+.footer {
+  background-color: green;
+  height: 100vh;
+  width: 100%;
+  margin-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */
