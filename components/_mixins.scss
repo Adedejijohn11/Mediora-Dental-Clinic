@@ -6,6 +6,10 @@
   @include usable-bg-color;
   color: white;
   cursor: pointer;
+  border-radius: 22px;
+  border: none;
+  padding: 13px;
+  font-size: 15px;
 }
 
 @mixin bg-image-center {
@@ -23,8 +27,7 @@
 
 @mixin card-styles {
   height: 280px;
-  width: 400px;
-
+  width: 100%;
   border-radius: 20px;
   @include usable-bg-color;
   overflow: hidden;

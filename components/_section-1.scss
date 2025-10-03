@@ -1,8 +1,7 @@
-.Section-1 {
+#Section-1 {
   height: 100%;
-  width: 100%;
-  padding: 30px;
-  background-color: rgb(191, 0, 255);
+  width: 97%;
+  margin-top: 60px;
 
   @include md {
     height: 90vh;
@@ -45,9 +44,6 @@
         font-size: 20px;
       }
     }
-    // .description {
-    //   width: 50%;
-    // }
   }
 
   .Cards-container {

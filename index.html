@@ -11,18 +11,17 @@
     />
   </head>
   <body>
-    <div class="home-bg">
+    <div id="home-bg">
       <!-- Navbar -->
       <nav>
         <div class="logoName">Mediora</div>
         <ul>
-          <li id="home">Home</li>
-          <li id="about">About</li>
-          <li id="doctors">Doctors</li>
-          <li id="pricing">Pricing</li>
+          <li><a href="#home-bg"> Home</a></li>
+          <li><a href="#Section-1">About</a></li>
+          <li><a href="#Section-2">Book now</a></li>
         </ul>
         <div class="right-side">
-          <li>Book Now</li>
+          <!-- <li>Book Now</li> -->
           <button class="btn">Get Started</button>
         </div>
       </nav>
@@ -62,7 +61,7 @@
     </div>
 
     <!-- Section-1 -->
-    <section class="Section-1">
+    <section id="Section-1">
       <div class="top-container">
         <h2 class="title">
           Driven by Care, <br />
@@ -130,7 +129,7 @@
     </section>
 
     <!-- Section-2 -->
-    <section class="Section-2">
+    <section id="Section-2">
       <div class="left-container">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2584.1831065946617!2d6.132905076009366!3d49.632003445955725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47954ede77e6ffcd%3A0x57d2afcf37277d52!2sCHL%20Eich%20(Center%20Hospitalier%20de%20Luxembourg)!5e0!3m2!1sen!2slu!4v1759330337020!5m2!1sen!2slu"
@@ -143,65 +142,81 @@
         ></iframe>
       </div>
       <div class="right-container">
-        <div>
-          <h4 id="title">Schedule Your Visit Today</h4>
-          <p id="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusantium possimus asperiores soluta modi unde mollitia aspernatur tempora quae, officia nisi ipsum expedita maxime sequi nemo adipisci? Tempora, tempore in?</p>
+        <div class="title-container">
+          <h4>Schedule Your Visit Today</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            accusantium possimus asperiores soluta modi unde mollitia aspernatur
+            tempora quae, officia nisi ipsum expedita maxime sequi nemo
+            adipisci? Tempora, tempore in?
+          </p>
         </div>
         <div class="form-container">
-          <form action="">
+          <form action="/">
             <div class="container-1">
-              <label for="fname">Full name:</label><br />
-              <input
-                type="text"
-                id="fname"
-                name="fname"
-                placeholder="Your name"
-              /><br />
-              <label for="number">Phone Number</label><br />
-              <input
-                type="text"
-                id="lname"
-                name="lname"
-                placeholder="Phone number"
-              /><br /><br />
+              <div>
+                <label for="fname">Full name:</label><br />
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  placeholder="Your name"
+                /><br />
+              </div>
+              <div>
+                <label for="number">Phone Number</label><br />
+                <input
+                  type="number"
+                  id="number"
+                  name="number"
+                  placeholder="Phone number"
+                /><br />
+              </div>
             </div>
             <div class="container-2">
-              <label for="type" id="service">Type of service</label>
-              <select id="service" name="service">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="fiat">Fiat</option>
-                <option value="audi">Audi</option></select
-              ><br />
-              <label for="birthday">Preferred Date</label>
-              <input
-                type="date"
-                id="date"
-                name="date"
-                placeholder="Select date"
-              />
+              <div>
+                <label for="type" id="service">Type of service</label> <br />
+                <select id="type" name="service">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="fiat">Fiat</option>
+                  <option value="audi">Audi</option></select
+                ><br />
+              </div>
+              <div>
+                <label for="date">Preferred Date</label> <br />
+                <input
+                  type="date"
+                  id="date"
+                  name="date"
+                  placeholder="Select date"
+                />
+              </div>
             </div>
             <div class="container-3">
-              <label for="type" id="hours">Available Hours</label>
-              <select id="service" name="service">
-                <option>30 minutes</option>
-                <option value="saab">1 hour</option>
-                <option value="fiat">2 hour</option>
-                <option value="audi">3 hour</option></select
-              ><br />
+              <div>
+                <label for="hours">Available Hours</label><br />
+                <select id="hours" name="hours">
+                  <option>30 minutes</option>
+                  <option value="saab">1 hour</option>
+                  <option value="fiat">2 hour</option>
+                  <option value="audi">3 hour</option></select
+                ><br />
+              </div>
+              <div class="text-container">
+                <label for="note">Notes</label><br />
+                <textarea
+                  name="message"
+                  rows="10"
+                  cols="30"
+                  placeholder="Add any notes..."
+                >
+                </textarea>
+              </div>
             </div>
-            <div class="container-4">
-              <label for="note" id="note">Notes</label>
-              <textarea
-                name="message"
-                rows="10"
-                cols="30"
-                placeholder="Add any notes..."
-              >
-              </textarea>
+            <div class="btn-container">
+              <button>Book an appointment</button>
             </div>
-
-            <button>Book an appointment</button>
           </form>
         </div>
       </div>
@@ -209,47 +224,54 @@
 
     <!--------- Footer ----------->
     <div class="footer">
-      <div>
-        <div>
-          <h4></h4>
-          <button>Reach out now ></button>
-        </div>
+      <div class="overlay-container">
+        <!-- <div> -->
+        <h4>
+          Let's Make Your First Step Toward <br />
+          Better Dental Health
+        </h4>
+        <button>Reach out now ></button>
+        <!-- </div> -->
       </div>
 
-      <div>
-        <div>
-          <div>
+      <div class="main-container">
+        <div class="content">
+          <div class="left-container">
             <h5>Mediora</h5>
-            <p id="desc"></p>
-            <div>icons</div>
+            <p>
+              Caring foryour smile with modern technology & <br />trusted
+              professionals.
+            </p>
+            <div class="social-icons">icons</div>
           </div>
-          <div class="navigation">
-            <h5 id="title1"></h5>
-            <a href="" id="text1"></a>
-            <a href="" id="text4"></a>
-            <a href="" id="text3"></a>
-            <a href="" id="text4"></a>
-          </div>
-          <div class="info">
-            <h5 id="title2"></h5>
-            <span id="text1"></span>
-            <span id="text2"></span>
-            <span id="text3"></span>
-            <span id="text4"></span>
-          </div>
-          <div class="contact">
-            <h5 id="title">Contact Us</h5>
-            <div>mediora@gmail.com</div>
-            <div>+80 938020389</div>
-            <div>JL narpan 21 bandung city, indonesia</div>
+          <div class="right-container">
+            <div class="navigation">
+              <h5>Navigation</h5>
+              <a href="#home-bg">Home</a>
+              <a href="#Section-1">About</a>
+              <a href="#Section-2" id="text3">Book now</a>
+            </div>
+            <div class="info">
+              <h5>Patient info</h5>
+              <span id="text1">FAQs</span>
+              <span id="text2">Patient Guide </span>
+              <span id="text3">Booking Help</span>
+              <span id="text4">Emergency Care</span>
+            </div>
+            <div class="contact">
+              <h5>Contact Us</h5>
+              <div>mediora@gmail.com</div>
+              <div>+80 938020389</div>
+              <div>JL narpan 21 bandung city, indonesia</div>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <footer>
-          <div>copyright@ 2025 Mediora</div>
-          <div>All Right | Tems and Conditions | Privacy Policy</div>
-        </footer>
+        <div>
+          <div class="bottom">
+            <div>copyright@ 2025 Mediora</div>
+            <div>All Right | Tems and Conditions | Privacy Policy</div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Scripts -->

@@ -1,14 +1,15 @@
-.home-bg {
+#home-bg {
   height: 100%;
   width: 97%;
   display: flex;
   flex-direction: column;
   background-color: rgb(172, 215, 232);
   align-items: center;
-  margin: 20px;
+  margin: 5px;
   border-radius: 15px;
 
   @include md {
-    height: 90vh;
+    height: 94vh;
+    margin: 20px;
   }
 }
