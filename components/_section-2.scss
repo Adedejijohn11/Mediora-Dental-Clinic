@@ -7,11 +7,15 @@
   gap: 30px;
   margin-top: 50px;
 
-  @include md {
+  @include lg {
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
-    height: 90vh;
+    height: 680px;
+  }
+
+  @include xl {
+    height: 100%;
   }
 
   .left-container {
@@ -20,17 +24,16 @@
     overflow: hidden;
     border-radius: 10px;
 
-    @include md {
+    @include lg {
       width: 50%;
       height: 560px;
-      flex-direction: row;
     }
 
     iframe {
       width: 100%;
       height: 100%;
 
-      @include md {
+      @include lg {
         width: 730px;
       }
     }
@@ -42,7 +45,7 @@
     display: flex;
     flex-direction: column;
 
-    @include md {
+    @include lg {
       width: 50%;
       height: 560px;
     }
@@ -53,7 +56,7 @@
       justify-content: center;
       align-items: center;
 
-      @include md {
+      @include lg {
         justify-content: start;
         align-items: start;
       }
@@ -72,6 +75,9 @@
 
         @include md {
           font-size: 20px;
+        }
+
+        @include lg {
           text-align: start;
         }
       }
@@ -88,7 +94,7 @@
         flex-direction: column;
         justify-content: space-between;
 
-        @include md {
+        @include xl {
           flex-direction: row;
         }
 
@@ -101,6 +107,14 @@
           height: 30px;
 
           @include md {
+            width: 450px;
+          }
+
+          @include lg {
+            width: 100%;
+          }
+
+          @include xl {
             width: 350px;
           }
         }
@@ -112,7 +126,7 @@
         flex-direction: column;
         justify-content: space-between;
 
-        @include md {
+        @include xl {
           flex-direction: row;
         }
 
@@ -121,6 +135,14 @@
           height: 30px;
 
           @include md {
+            width: 450px;
+          }
+
+          @include lg {
+            width: 100%;
+          }
+
+          @include xl {
             width: 350px;
           }
         }
@@ -130,6 +152,14 @@
           height: 30px;
 
           @include md {
+            width: 450px;
+          }
+
+          @include lg {
+            width: 100%;
+          }
+
+          @include xl {
             width: 350px;
           }
         }
@@ -143,6 +173,14 @@
         select {
           width: 100%;
           height: 30px;
+
+          @include md {
+            width: 450px;
+          }
+
+          @include lg {
+            width: 100%;
+          }
         }
 
         .text-container {
@@ -150,6 +188,14 @@
 
           textarea {
             width: 100%;
+
+            @include md {
+              width: 450px;
+            }
+
+            @include lg {
+              width: 100%;
+            }
           }
         }
       }
@@ -160,13 +206,25 @@
         justify-content: center;
         margin-top: 8px;
 
+        @include md {
+          justify-content: start;
+        }
+
+        @include lg {
+          justify-content: center;
+        }
+
         button {
           width: 100%;
           @include button-styles;
 
-          //   @include md {
-          //     // width: 738px;
-          //   }
+          @include md {
+            width: 450px;
+          }
+
+          @include lg {
+            width: 100%;
+          }
         }
       }
     }

@@ -36,6 +36,11 @@
   flex-direction: column;
 
   @include md {
+    height: 300px;
+    width: 500px;
+  }
+
+  @include lg {
     height: 380px;
     width: 500px;
   }
