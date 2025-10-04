@@ -7,9 +7,20 @@
   align-items: center;
   margin: 5px;
   border-radius: 15px;
+  transition: margin-top 0.3s ease;
+  transition: width 0.3s ease;
+
+  &.scrolled {
+    margin: 0;
+  }
 
   @include md {
     height: 94vh;
     margin: 20px;
+
+    &.scrolled {
+      margin: 0;
+      width: 100%;
+    }
   }
 }
