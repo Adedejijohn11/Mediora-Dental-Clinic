@@ -467,7 +467,7 @@ header .hero-right {
 
 @media (min-width: 1200px) {
   header .hero-right {
-    height: 580px;
+    height: 575px;
     margin-top: 0;
   }
 }
@@ -619,6 +619,8 @@ header .hero-right .img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-shadow: 5px 10px 18px #8ca2aa;
+          box-shadow: 5px 10px 18px #8ca2aa;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -750,6 +752,8 @@ header .hero-right .img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-shadow: 5px 10px 18px #8ca2aa;
+          box-shadow: 5px 10px 18px #8ca2aa;
 }
 
 @media (min-width: 720px) {
@@ -869,6 +873,8 @@ header .hero-right .img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-shadow: 5px 10px 18px #8ca2aa;
+          box-shadow: 5px 10px 18px #8ca2aa;
 }
 
 @media (min-width: 720px) {
