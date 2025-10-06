@@ -24,9 +24,9 @@ document.querySelectorAll(".sidebar, li").forEach((link) => {
 
 // scrolling effect for the navbar
 window.addEventListener("scroll", () => {
-  const headerbottom = header.offsetHeight;
-  header;
-  if (window.scrollY > headerbottom) {
+  // const headerbottom = header.offsetHeight;
+
+  if (window.scrollY > 0) {
     navbar.classList.add("scrolled");
     homeBg.classList.add("scrolled");
   } else {

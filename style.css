@@ -173,7 +173,7 @@ nav .right-side .fa-bars {
   top: 0;
   right: 0;
   z-index: 10;
-  background-color: #acd7e8;
+  background-color: #8f9da2;
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
 }
@@ -379,48 +379,62 @@ header .hero-left .container .box .img-container {
 }
 
 header .hero-left .container .box .img-container .img-1 {
+  background-image: url("assets/images/client-img-1.jpg");
   height: 40px;
   width: 40px;
   border-radius: 50px;
-  background-color: white;
+  border: 2px solid white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 header .hero-left .container .box .img-container .img-2 {
+  background-image: url("assets/images/client-img-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 40px;
   width: 40px;
   border-radius: 50px;
-  background-color: white;
+  border: 2px solid white;
   position: absolute;
   left: 28px;
-  background-color: aqua;
 }
 
 header .hero-left .container .box .img-container .img-3 {
+  background-image: url("assets/images/client-img-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 40px;
   width: 40px;
   border-radius: 50px;
-  background-color: white;
+  border: 2px solid white;
   z-index: 1;
   position: absolute;
   left: 55px;
 }
 
 header .hero-left .container .box .img-container .img-4 {
-  z-index: 1;
+  background-image: url("assets/images/client-img-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 40px;
   width: 40px;
   border-radius: 50px;
-  background-color: white;
+  border: 2px solid white;
+  z-index: 1;
   position: absolute;
   left: 85px;
-  background-color: brown;
 }
 
 header .hero-left .container .box .img-container .img-5 {
   height: 40px;
   width: 40px;
   border-radius: 50px;
-  background-color: white;
+  border: 2px solid white;
   z-index: 1;
   position: absolute;
   left: 110px;
