@@ -26,9 +26,9 @@ This project is designed to provide a professional, clean and user-friendly onli
 ## 📁 Project Structure
 
 dentist-clinic/
-.assets/ images/ # All website images
+- assets/ images/ # All website images
 
-.component/ # SCSS partials for each section
+- component/ # SCSS partials for each section
 /breakpoint.scss
 /footer.scss
 /header.scss
@@ -41,9 +41,9 @@ dentist-clinic/
 /section-3.scss
 /sidebar.scss
 
-.index.html # Main HTML file
-.index.js # JavaScript for interactivity
-.style.scss # Main SCSS file (imports all partials)
-.style.css # Compiled CSS file
-.style.css.map # Source map for debugging
-.README.md
+- index.html # Main HTML file
+- index.js # JavaScript for interactivity
+- style.scss # Main SCSS file (imports all partials)
+- style.css # Compiled CSS file
+- style.css.map # Source map for debugging
+- README.md
