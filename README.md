@@ -1,11 +1,11 @@
-# 🦷 Dentist Website
+# Dentist Website
 
 A modern and responsive **dentist website** built using **HTML**, **SCSS**, and **JavaScript**.  
 This project is designed to provide a professional, clean and user-friendly online presence for dental clinics, featuring service information, appointment booking, and contact details.
 
 ---
 
-## 📋 Features
+## Features
 
 - Fully responsive layout for all devices
 - Modern and clean UI design
@@ -15,7 +15,7 @@ This project is designed to provide a professional, clean and user-friendly onli
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **HTML5** : Semantic and accessible structure
 - **SCSS**: Modular and maintainable styling
@@ -23,7 +23,7 @@ This project is designed to provide a professional, clean and user-friendly onli
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 dentist-clinic/
 
@@ -38,11 +38,10 @@ dentist-clinic/
 
 ---
 
-## 🛠 Installation & Setup
+## Installation & Setup
 
 **Clone the repository:**
 
-````bash
 git clone https://github.com/Adedejijohn11/Mediora-Dental-Clinic.git
 cd Dental Clinic
 
@@ -50,16 +49,18 @@ cd Dental Clinic
 
 If you want to compile SCSS locally, install Sass globally:
 
-```bash
 npm install -g sass
 
 Compile SCSS to CSS:
 sass --watch style.scss:index.css
 
-
 ## Deployment / Live Site
+
 The website is hosted on **GitHub Pages**
 
 Live URL:
 https://adedejijohn11.github.io/Mediora-Dental-Clinic/
-````
+
+```
+
+```
