@@ -49,10 +49,11 @@ cd Dental Clinic
 
 If you want to compile SCSS locally, install Sass globally:
 
-npm install -g sass
+- npm install -g sass
 
 Compile SCSS to CSS:
-sass --watch style.scss:index.css
+
+- sass --watch style.scss:index.css
 
 ## Deployment / Live Site
 
@@ -60,7 +61,3 @@ The website is hosted on **GitHub Pages**
 
 Live URL:
 https://adedejijohn11.github.io/Mediora-Dental-Clinic/
-
-```
-
-```
