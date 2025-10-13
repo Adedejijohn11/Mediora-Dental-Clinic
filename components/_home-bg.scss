@@ -1,3 +1,6 @@
+@use "./breakpoint" as *;
+@use "./mixins" as *;
+
 #home-bg {
   height: 100%;
   width: 97%;

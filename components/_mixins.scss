@@ -1,3 +1,5 @@
+@use "./breakpoint" as *;
+
 @mixin usable-bg-color {
   background-color: rgb(36, 152, 210);
 }

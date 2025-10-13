@@ -1,3 +1,6 @@
+@use "./breakpoint" as *;
+@use "./mixins" as *;
+
 footer {
   height: 810px;
   width: 100%;
