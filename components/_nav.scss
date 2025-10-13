@@ -14,9 +14,7 @@ nav {
   align-items: center;
   background-color: rgb(217, 238, 244);
   border-radius: 30px;
-  transition: width 0.3s ease; // smooth width transition
-  /* optional: for smoother effect */
-  // transition: width 0.3s ease, padding 0.3s ease;
+  transition: width 0.3s ease; //
 
   &.scrolled {
     margin-top: 0;

@@ -50,6 +50,7 @@ nav {
   background-color: rgb(217, 238, 244);
   border-radius: 30px;
   transition: width 0.3s ease;
+  /* optional: for smoother effect */
 }
 nav.scrolled {
   margin-top: 0;
@@ -450,7 +451,6 @@ header .hero-right .img {
   display: flex;
   flex-direction: column;
   box-shadow: 5px 10px 18px rgb(140, 162, 170);
-  justify-content: space-between;
 }
 @media (min-width: 720px) {
   #Section-1 .Cards-container .card-1 {
@@ -463,6 +463,9 @@ header .hero-right .img {
     height: 380px;
     width: 500px;
   }
+}
+#Section-1 .Cards-container .card-1 {
+  justify-content: space-between;
 }
 #Section-1 .Cards-container .card-1 .top {
   display: flex;
@@ -1101,4 +1104,6 @@ footer .main-container .bottom {
     justify-content: space-between;
     flex-direction: row;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
