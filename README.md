@@ -10,40 +10,56 @@ This project is designed to provide a professional, clean and user-friendly onli
 - Fully responsive layout for all devices
 - Modern and clean UI design
 - Appointment booking form
-- Contact info
+- Simple and interactive UI with JavaScript
 - Smooth scrolling
 
 ---
 
 ## 🛠️ Tech Stack
 
-**HTML5** : Semantic and accessible structure |
-**SCSS**: Modular and maintainable styling
-**JavaScript (ES6)**: Interactivity and DOM manipulation |
+- **HTML5** : Semantic and accessible structure
+- **SCSS**: Modular and maintainable styling
+- **JavaScript (ES6)**: Interactivity and DOM manipulation
 
 ---
 
 ## 📁 Project Structure
 
 dentist-clinic/
+
 - assets/ images/ # All website images
-
 - component/ # SCSS partials for each section
-/breakpoint.scss
-/footer.scss
-/header.scss
-/home-bg.scss
-/mixins.scss
-/nav.scss
-/resets.scss
-/section-1.scss
-/section-2.scss
-/section-3.scss
-/sidebar.scss
-
 - index.html # Main HTML file
 - index.js # JavaScript for interactivity
 - style.scss # Main SCSS file (imports all partials)
 - style.css # Compiled CSS file
 - style.css.map # Source map for debugging
 - README.md
+
+---
+
+## 🛠 Installation & Setup
+
+**Clone the repository:**
+
+````bash
+git clone https://github.com/Adedejijohn11/Mediora-Dental-Clinic.git
+cd Dental Clinic
+
+## Install Sass (optional)
+
+If you want to compile SCSS locally, install Sass globally:
+
+```bash
+npm install -g sass
+
+Compile SCSS to CSS:
+sass --watch style.scss:index.css
+
+
+## Deployment / Live Site
+The website is hosted on **GitHub Pages**
+
+Live URL:
+https://adedejijohn11.github.io/Mediora-Dental-Clinic/
+````
