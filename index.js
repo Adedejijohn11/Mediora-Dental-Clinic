@@ -4,6 +4,7 @@ const sidebar = document.querySelector(".sidebar");
 const navbar = document.querySelector("nav");
 const homeBg = document.querySelector("#home-bg");
 const header = document.querySelector("header");
+const bookingBtn = document.querySelector(".bookingBtn");
 
 // showsidebar
 showsidebar.addEventListener("click", () => {
@@ -33,4 +34,8 @@ window.addEventListener("scroll", () => {
     navbar.classList.remove("scrolled");
     homeBg.classList.remove("scrolled");
   }
+});
+
+bookingBtn.addEventListener("click", () => {
+  alert("Thanks for booking");
 });
