@@ -1,7 +1,7 @@
 # Dentist Website
 
-A modern and responsive **dentist website** built using **HTML**, **SCSS**, and **JavaScript**.  
-This project is designed to provide a professional, clean and user-friendly online presence for dental clinics, featuring service information, appointment booking, and contact details.
+A modern and responsive **dentist website** built using **HTML**, **SCSS** and **JavaScript**.  
+This project is designed to provide a professional, clean and user-friendly online presence for dental clinics, featuring service information, appointment booking, location and contact details.
 
 ---
 
